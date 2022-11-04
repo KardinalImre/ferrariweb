@@ -1,0 +1,28 @@
+body {
+    background-color: red;
+  }
+  
+  h1 {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: gold;
+    transition: 350ms;
+}
+
+a:hover {
+    color: blue;
+}
+
+.active {
+    color: forestgreen;
+}
